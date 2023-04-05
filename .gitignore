@@ -5,3 +5,4 @@ Test extensions/bin/
 Test extensions/obj/
 nunit debugging extensions/bin/
 nunit debugging extensions/obj/
+nunit debugging extensions/nuget.config
