@@ -11,6 +11,10 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Title>Nunit debugging extensions</Title>
+    <PackageTags>test</PackageTags>
+    <PackageReleaseNotes>Init</PackageReleaseNotes>
+    <PackAsTool>True</PackAsTool>
+    <IncludeSymbols>True</IncludeSymbols>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
