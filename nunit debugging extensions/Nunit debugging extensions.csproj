@@ -17,6 +17,7 @@
     <PackageReleaseNotes>Init</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <IncludeSymbols>True</IncludeSymbols>
+    <Authors>Barakadax</Authors>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
