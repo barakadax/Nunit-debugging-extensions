@@ -12,6 +12,8 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Title>Nunit debugging extensions</Title>
     <PackageTags>test</PackageTags>
+    <IsPackable>true</IsPackable>
+    <PackageId>Nunit_debugging_extensions</PackageId>
     <PackageReleaseNotes>Init</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <IncludeSymbols>True</IncludeSymbols>
