@@ -13,7 +13,9 @@
     <Title>Nunit debugging extensions</Title>
     <PackageTags>test</PackageTags>
     <IsPackable>true</IsPackable>
-    <PackageId>Nunit_debugging_extensions</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <id>Barakadax_Nunit_debugging_extensions</id>
+    <PackageId>Barakadax_Nunit_debugging_extensions</PackageId>
     <PackageReleaseNotes>Init</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <IncludeSymbols>True</IncludeSymbols>
