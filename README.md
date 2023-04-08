@@ -4,4 +4,4 @@ Some tools I need to debug my code with using the <a href="https://github.com/nu
 
 My package <a href="https://www.nuget.org/packages/Barakadax_Nunit_debugging_extensions" target="_blank">link.</a>
 
-[![NuGet Badge](https://img.shields.io/nuget/v/YourPackageName.svg)]([https://www.nuget.org/packages/YourPackageName/](https://www.nuget.org/packages/Barakadax_Nunit_debugging_extensions))
+[![NuGet Badge](https://img.shields.io/nuget/v/YourPackageName.svg)](https://www.nuget.org/packages/Barakadax_Nunit_debugging_extensions)
