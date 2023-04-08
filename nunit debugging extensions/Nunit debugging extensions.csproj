@@ -6,27 +6,25 @@
     <Nullable>disable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/barakadax/Nunit-debugging-extensions</PackageProjectUrl>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>NugetREADME.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/barakadax/Nunit-debugging-extensions</RepositoryUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Title>Nunit debugging extensions</Title>
-    <PackageTags>test</PackageTags>
+    <PackageTags>debugging, test, tests, nunit</PackageTags>
     <IsPackable>true</IsPackable>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <id>Barakadax_Nunit_debugging_extensions</id>
-    <PackageId>Barakadax_Nunit_debugging_extensions</PackageId>
-    <PackageReleaseNotes>Init</PackageReleaseNotes>
+    <id>Barakadax.Nunit.debugging.extensions</id>
+    <PackageId>Barakadax.Nunit.debugging.extensions</PackageId>
+    <PackageReleaseNotes>Fix nugget data</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <IncludeSymbols>True</IncludeSymbols>
     <Authors>Barakadax</Authors>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>MIT License</Copyright>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
@@ -36,5 +34,12 @@
     <PackageReference Include="NUnit" />
     <PackageReference Include="NUnit3TestAdapter" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NugetREADME.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 </Project>
