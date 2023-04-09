@@ -6,7 +6,7 @@
     <Product>Nunit debugging extentions</Product>
     <Description>So it can be easier to debug code from nunit test</Description>
     <VersionPrefix>1.0.0</VersionPrefix>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <PlatformTarget>x64</PlatformTarget>
     <LangVersion>latest</LangVersion>
     <RuntimeIdentifiers>win;linux</RuntimeIdentifiers>

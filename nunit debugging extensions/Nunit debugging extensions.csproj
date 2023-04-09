@@ -13,15 +13,17 @@
     <Title>Nunit debugging extensions</Title>
     <PackageTags>debugging, test, tests, nunit</PackageTags>
     <IsPackable>true</IsPackable>
-    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionPrefix>2.0.0</VersionPrefix>
     <id>Barakadax.Nunit.debugging.extensions</id>
     <PackageId>Barakadax.Nunit.debugging.extensions</PackageId>
     <PackageReleaseNotes>Fix nugget data</PackageReleaseNotes>
-    <PackAsTool>True</PackAsTool>
+    <PackAsTool>False</PackAsTool>
     <IncludeSymbols>True</IncludeSymbols>
     <Authors>Barakadax</Authors>
     <RepositoryType>git</RepositoryType>
     <Copyright>MIT License</Copyright>
+    <TargetFramework>net6.0</TargetFramework>
+    <Version>$(VersionPrefix).1</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
