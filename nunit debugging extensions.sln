@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33513.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nunit debugging extensions", "nunit debugging extensions\Nunit debugging extensions.csproj", "{AE3D8FD0-200E-449D-821F-CCC0FC0C8E30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nunit debugging extensions", "nunit debugging extensions\Nunit debugging extensions.csproj", "{AE3D8FD0-200E-449D-821F-CCC0FC0C8E30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{938982ED-B5F6-4266-9598-9165174C5884}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		Directory.Build.props = Directory.Build.props
 		Directory.Build.targets = Directory.Build.targets
-		Global.json = Global.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test extensions", "Test extensions\Test extensions.csproj", "{13BDCD63-C25E-4404-BCD7-97BD806CEEED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test extensions", "Test extensions\Test extensions.csproj", "{13BDCD63-C25E-4404-BCD7-97BD806CEEED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{A9B01BBF-CCE2-419A-816A-C951EB331607}"
+	ProjectSection(SolutionItems) = preProject
+		Examples\RetryUntilFailureAttribute.md = Examples\RetryUntilFailureAttribute.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

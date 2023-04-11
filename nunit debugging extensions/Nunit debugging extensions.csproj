@@ -23,7 +23,7 @@
     <RepositoryType>git</RepositoryType>
     <Copyright>MIT License</Copyright>
     <TargetFramework>net6.0</TargetFramework>
-    <Version>$(VersionPrefix).1</Version>
+    <Version>$(VersionPrefix).2</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
